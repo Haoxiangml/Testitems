@@ -7,7 +7,7 @@
 
 let subscriptions = [
     {
-        link: "https://xn--4gq62f52gdss.com/api/v1/client/subscribe?token=4ee6180750ee2ffc41bd5e9d2f35366a",
+        link: "1",
         name: "一元机场",
         icon: "https://raw.githubusercontent.com/Orz-3/mini/master/pudding.png"
     },
