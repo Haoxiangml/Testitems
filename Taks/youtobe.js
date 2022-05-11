@@ -7,7 +7,7 @@ by tugepaopao（感谢@zZPiglet）
 
 const $ = new compatibility()
 const wait_mayi = $.read('Alipay_wait_mayi') * 1000 || 5000
-const mayi = "alipay://platformapi/startapp?appId=60000002"
+const mayi = "https://www.youtube.com/"
 
 let delay = function(s){
     return new Promise(function(resolve,reject){
@@ -16,7 +16,7 @@ let delay = function(s){
 }
 
 delay().then(function(){
-    $.notify("支付宝", "", "你今天似乎忘记收能量了哦", mayi)
+    $.notify("油管", "", "到看油管的时间了", mayi)
 }).finally(() => $done())
 
 function compatibility() {
