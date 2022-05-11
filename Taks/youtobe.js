@@ -2,7 +2,7 @@
 提醒蚂蚁森林收能量，该脚本适用于QuanX。
 30 7 * * * Alipay.js
 点击通知即可跳转收能量。
-by tugepaopao（感谢@zZPiglet）
+by tugepaopao
 */
 
 const $ = new compatibility()
