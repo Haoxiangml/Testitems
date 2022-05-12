@@ -6,6 +6,7 @@ by tugepaopao
 */
 
 const $ = new compatibility()
+const wait_youtobe = $.read('Flower_wait_youtobe') * 1000 || 5000
 const youtobe = "https://www.youtube.com/"
 
 let delay = function(s){
