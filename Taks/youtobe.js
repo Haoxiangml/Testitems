@@ -6,8 +6,8 @@ by tugepaopao
 */
 
 const $ = new compatibility()
-const wait_mayi = $.read('Alipay_wait_mayi') * 1000 || 5000
-const mayi = "https://www.youtube.com/"
+const wait_sehua = $.read('wait_sehua') * 1000 || 5000
+const sehua = "https://www.youtube.com/"
 
 let delay = function(s){
     return new Promise(function(resolve,reject){
@@ -16,7 +16,7 @@ let delay = function(s){
 }
 
 delay().then(function(){
-    $.notify("油管", "", "到看油管的时间了", mayi)
+    $.notify("Youtobe", "", "哈喽，到看油管的时间了", sehua)
 }).finally(() => $done())
 
 function compatibility() {
